@@ -19,7 +19,7 @@ pipeline {
         stage('Run') {
             steps {
                 script {
-                    sh 'docker run -d -p 83:80 app'
+                    sh 'docker run -d -p 84:80 app'
                 }
             }
         }
